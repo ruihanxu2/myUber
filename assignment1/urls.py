@@ -19,6 +19,7 @@ from uber import views as uber_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('register/', uber_views.register, name='register'),
-    path('home/',uber_views.home, name='home' )
+    path('register_driver/', uber_views.register_driver, name='register_driver'),
+    path('register_rider/', uber_views.register_rider, name='register_rider'),
+    path('',uber_views.home, name='home' )
 ]

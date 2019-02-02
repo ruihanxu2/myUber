@@ -8,7 +8,20 @@ def home(request):
 
 
 
-def register(request):
+def register_driver(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data.get('username')
+            messages.success(request, f'Account Created for {username}!')
+            return redirect('home')
+
+    else:
+        form = UserCreationForm()
+    return render(request, 'uber/register_driver.html', {'form':form})
+
+def register_rider(request):
     if request.method == 'POST':
         form = UserCreationForm(request.POST)
         if form.is_valid():
@@ -18,4 +31,4 @@ def register(request):
 
     else:
         form = UserCreationForm()
-    return render(request, 'uber/register.html', {'form':form})
+    return render(request, 'uber/register_rider.html', {'form':form})
