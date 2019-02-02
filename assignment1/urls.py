@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from uber import views as uber_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('register/', uber_views.register, name='register'),
+    path('home/',uber_views.home, name='home' )
 ]
