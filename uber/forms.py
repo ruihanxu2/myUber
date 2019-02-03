@@ -25,8 +25,10 @@ class DriverRegisterForm(UserCreationForm):
     email = forms.EmailField()
     car = forms.CharField(required=True)
     capacity = forms.IntegerField(required=True)
+    plate_number = forms.IntegerField(required=True)
+    max_passengers = forms.IntegerField(required=True)
     class Meta:
         #the model we want this form to interacte with
 
         model = User
-        fields = ['username', 'email', 'password1', 'password2', 'car', 'capacity']
+        fields = ['username', 'email', 'password1', 'password2', 'car', 'capacity','plate_number' ,'max_passengers']
