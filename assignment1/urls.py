@@ -24,7 +24,7 @@ urlpatterns = [
     path('register_rider/', uber_views.register_rider, name='register_rider'),
     path('login/', auth_views.LoginView.as_view(template_name='uber/login.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(template_name='uber/logout.html'), name='logout'),
-
+    path('profile/', uber_views.profile, name='profile'),
     path('',uber_views.home, name='home' )
 
 ]

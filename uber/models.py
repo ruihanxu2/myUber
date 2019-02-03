@@ -3,6 +3,16 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 from django.contrib.auth.models import User
 
 
+class Profile(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    is_driver = models.BooleanField(default=True)
+    plate_number = models.CharField(max_length=8)
+    max_passengers = models.IntegerField(validators=[
+            MinValueValidator(1)
+        ])
+    def __str__(self):
+        return f'{self.user.username} Profile'
+
 # class Rider(models.Model):
 #     rider_name = models.CharField(max_length=200)
 #     rider_pwd = models.CharField(max_length=200)

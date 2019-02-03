@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.contrib import messages
 from django.contrib.auth.forms import UserCreationForm
@@ -34,3 +35,8 @@ def register_rider(request):
     else:
         form = RiderRegisterForm()
     return render(request, 'uber/register_rider.html', {'form':form})
+
+
+@login_required
+def profile(request):
+    return render(request, 'uber/profile.html')

@@ -1,0 +1,12 @@
+{% extends "uber/base.html" %}
+{% load crispy_forms_tags %}
+{% block body %}
+    <h1>{{ user.username }}</h1>
+    <h1>{{ user.email }}</h1>
+    <h1>{{ user.profile.plate_number }}</h1>
+
+    {% if user.profile.is_driver %}
+        <h2>This is a fucking driver!!</h2>
+    {% endif %}
+
+{% endblock body %}
