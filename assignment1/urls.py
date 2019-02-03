@@ -16,10 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from uber import views as uber_views
+from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('register_driver/', uber_views.register_driver, name='register_driver'),
     path('register_rider/', uber_views.register_rider, name='register_rider'),
+    path('login/', auth_views.LoginView.as_view(template_name='uber/login.html'), name='login'),
+    path('logout/', auth_views.LogoutView.as_view(template_name='uber/logout.html'), name='logout'),
+
     path('',uber_views.home, name='home' )
+
 ]
