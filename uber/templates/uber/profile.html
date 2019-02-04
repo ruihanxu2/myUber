@@ -1,6 +1,51 @@
 {% extends "uber/base.html" %}
 {% load crispy_forms_tags %}
 {% block body %}
+
+<h1>Welcome! {{ user.username }}</h1>
+    {% if user.profile.is_driver%}
+        <div class="content-section">
+            <p class='text-muted'>As a Driver, You can do the followings:
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-light">
+                    <a class="nav-item nav-link" href="{% url 'search' %}">Pick a ride!</a>
+                </li>
+                <li class="list-group-item list-group-item-light">
+                    <a class="nav-item nav-link" href="{% url 'search_past' %}">View your past rides</a>
+                </li>
+                <li class="list-group-item list-group-item-light">
+                    <a class="nav-item nav-link" href="{% url 'search_cur' %}">View your upcoming rides</a>
+                </li>
+
+
+              </ul>
+            </p>
+          </div>
+
+    {% else %}
+        <div class="content-section">
+            <p class='text-muted'>As a rider, you can do the followings:
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-light">
+                    <a class="nav-item nav-link" href="{% url 'new_ride' %}">open a ride!</a>
+                </li>
+                <li class="list-group-item list-group-item-light">
+                    <a class="nav-item nav-link" href="{% url 'search_share' %}">share a ride!</a>
+                </li>
+                <li class="list-group-item list-group-item-light">
+                    <a class="nav-item nav-link" href="{% url 'search_past' %}">View your past rides</a>
+                </li>
+                <li class="list-group-item list-group-item-light">
+                    <a class="nav-item nav-link" href="{% url 'search_cur' %}">View your upcoming rides(also edit..)</a>
+                </li>
+
+
+              </ul>
+            </p>
+          </div>
+
+    {% endif%}
+
     <h1>{{ user.username }}</h1>
     <h1>{{ user.email }}</h1>
     <h1>{{ user.profile.plate_number }}</h1>

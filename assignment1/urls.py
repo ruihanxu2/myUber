@@ -25,6 +25,11 @@ urlpatterns = [
     path('login/', auth_views.LoginView.as_view(template_name='uber/login.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(template_name='uber/logout.html'), name='logout'),
     path('profile/', uber_views.profile, name='profile'),
+    path('search/', uber_views.search, name='search'),
+    path('new_ride/', uber_views.new_ride, name='new_ride'),
+    path('search_share/', uber_views.search_share, name='search_share'),
+    path('search_past/', uber_views.search_past, name='search_past'),
+    path('search_cur/', uber_views.search_cur, name='search_cur'),
     path('',uber_views.home, name='home' )
 
 ]

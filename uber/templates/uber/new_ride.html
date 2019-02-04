@@ -1,0 +1,25 @@
+{% extends "uber/base.html" %}
+{% load crispy_forms_tags %}
+{% block body %}
+<div class="content-section">
+        <h1>This page will open a ride</h1>
+        <form method = "POST">
+        {% csrf_token %}
+            <fieldset class = "form-group">
+                <legend class = "border-bottom mb-4">Start A ride Now!</legend>
+                {{ form|crispy }}
+            </fieldset>
+            <div class = "form-group">
+                <button class = "btn btn-outline-info" type="submit">submit</button>
+            </div>
+
+        </form>
+
+        <!--<div class="border-top pt-3">-->
+            <!--<small class = "test-muted">-->
+                <!--Already have an account?<a class="ml-2" href="{% url 'login' %}">Sign In</a>-->
+            <!--</small>-->
+
+        <!--</div>-->
+    </div>
+{% endblock body %}
