@@ -66,8 +66,9 @@ def new_ride(request):
                             passenger_number=form.cleaned_data['passenger_number'],
                             rider_name=request.user.username,
                             )
+
+            newride.ride_owner = request.user
             newride.save()
-            newride.users.add(request.user)
             messages.success(request, f'You have just requested a ride!')
             return redirect('profile')
     else:

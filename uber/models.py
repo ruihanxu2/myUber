@@ -15,7 +15,7 @@ class Profile(models.Model):
 
 class Rides(models.Model):
     #all user
-    users = models.ManyToManyField(User)
+    ride_owner = models.OneToOneField(User, on_delete=models.CASCADE, null=True)
     #driver
     driver_name  = models.CharField(max_length=100, default='')
     #rider
