@@ -12,8 +12,15 @@
                         <li class="list-group-item list-group-item-light">
                             Destination: {{ ride.destination}}
                                 <br>
-                                Arrival Time (Expected): {{ride.expected_arrival}}
-
+                                Passangers number(not counting the sharer): {{ ride.passenger_number }}
+                                <br>
+                                {% if ride.isShare %}
+                                    Yes
+                                    <br>
+                                    Shared With: {% for sharer in ride.ride_sharer.all %}{{ sharer }} {% endfor %}
+                                {% else %}
+                                    No
+                                {% endif %}
                                 <br>
                                 Special Request: {{ride.special_request}}
                             <a class="nav-item nav-link" href="../driver_confirm/{{ ride.id }}">confirm</a>

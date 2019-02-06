@@ -64,6 +64,8 @@
                                 <br>
                                 Driver: {{ ride.driver_name }}
                                 <br>
+                                Passangers number(not counting the sharer): {{ ride.passenger_number }}
+                                <br>
                                 {% if ride.isShare %}
                                     Yes
                                     <br>
@@ -73,6 +75,7 @@
                                 {% endif %}
                                 <br>
                                 Special Request: {{ride.special_request}}
+
                                 <a class="nav-item nav-link" href="../complete/{{ ride.id }}">This ride is finished</a>
                             </li>
                         {% endfor%}
