@@ -1,0 +1,17 @@
+{% extends "uber/base.html" %}
+{% load crispy_forms_tags %}
+{% block body %}
+    <div class="content-section">
+        <h1>Please enter the information of this share</h1>
+        <form method = "POST">
+        {% csrf_token %}
+            <fieldset class = "form-group">
+                {{ form|crispy }}
+            </fieldset>
+            <div class = "form-group">
+                <button class = "btn btn-outline-info" type="submit">Find a ride to share!</button>
+            </div>
+
+        </form>
+    </div>
+{% endblock body %}

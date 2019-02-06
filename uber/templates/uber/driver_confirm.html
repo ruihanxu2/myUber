@@ -1,0 +1,6 @@
+{% extends "uber/base.html" %}
+{% load crispy_forms_tags %}
+{% block body %}
+<h1>Congratulations! You have just confirmed a ride</h1>
+<a class="nav-item nav-link" href="{% url 'profile' %}">go back to your profile</a>
+{% endblock body %}

@@ -30,6 +30,14 @@ urlpatterns = [
     path('search_share/', uber_views.search_share, name='search_share'),
     path('search_past/', uber_views.search_past, name='search_past'),
     path('search_cur/', uber_views.search_cur, name='search_cur'),
+    path('edit_ride/<int:ride_id>/', uber_views.edit_ride, name='edit_ride'),
+    path('driver_confirm/<int:ride_id>/', uber_views.driver_confirm, name='driver_confirm'),
+    path('complete/<int:ride_id>/', uber_views.driver_complete, name='driver_complete'),
+    path('share/<int:ride_id>/', uber_views.share, name='share'),
+    path('share_config/', uber_views.share_config, name='share_config'),
+    path('search_share/', uber_views.search_share, name='search_share'),
+
+
     path('',uber_views.home, name='home' )
 
 ]

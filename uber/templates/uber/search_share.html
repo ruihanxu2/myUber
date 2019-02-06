@@ -1,5 +1,33 @@
 {% extends "uber/base.html" %}
 {% load crispy_forms_tags %}
 {% block body %}
-<h1>This page will display rides that can be shared</h1>
+<h1>Pick up a ride to share!</h1>
+<div class="content-section">
+    {% if share_rides|length != 0 %}
+        <p class='text-muted'>confirm a open ride!
+            <ul class="list-group">
+                    {% for ride in share_rides%}
+
+
+                        <li class="list-group-item list-group-item-light">
+                            Destination: {{ ride.destination}}
+                                <br>
+                                Arrival Time (Expected): {{ride.expected_arrival}}
+
+                                <br>
+                                Share with others:
+                                {% if ride.isShare %}
+                                    Yes
+                                {% else %}
+                                    No
+                                {% endif %}
+                                <br>
+                                Special Request: {{ride.special_request}}
+                            <a class="nav-item nav-link" href="../share/{{ ride.id }}">Share this ride!</a>
+                        </li>
+                    {% endfor%}
+            </ul>
+        </p>
+    {% endif %}
+</div>
 {% endblock body %}

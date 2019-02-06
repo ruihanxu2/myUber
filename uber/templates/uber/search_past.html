@@ -1,5 +1,80 @@
 {% extends "uber/base.html" %}
 {% load crispy_forms_tags %}
 {% block body %}
-<h1>This page will display history</h1>
+    {% if user.profile.is_driver%}
+        {% if past_rides_driver|length != 0 %}
+            <p class='text-muted'>Below are your past rides!
+                <ul class="list-group">
+                        {% for ride in past_rides_driver%}
+                            <li class="list-group-item list-group-item-light">
+                                 Destination: {{ ride.destination}}
+                                <br>
+                                Arrival Time (Expected): {{ride.expected_arrival}}
+                                <br>
+                                Owner: {{ ride.ride_owner.username }}
+                                <br>
+                                {% if ride.isShare %}
+                                    Yes
+                                    <br>
+                                    Shared With: {% for sharer in ride.ride_sharer.all %}{{ sharer }} {% endfor %}
+                                {% else %}
+                                    No
+                                {% endif %}
+                                <br>
+                                Special Request: {{ride.special_request}}
+                            </li>
+                        {% endfor%}
+                </ul>
+            </p>
+        {% else %}
+            <p class='text-muted'>Below are your past rides!
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-light">
+                        You have no past ride.
+                    </li>
+                </ul>
+            </p>
+        {% endif %}
+
+    {% else %}
+        {% if past_rides_user|length != 0 %}
+            <p class='text-muted'>Ride History:
+                <ul class="list-group">
+                        {% for ride in past_rides_user%}
+                            <li class="list-group-item list-group-item-light">
+                                Owner: {{ ride.ride_owner.username}}
+                                <br>
+                                Destination: {{ ride.destination}}
+                                <br>
+                                Arrival time(expect): {{ride.expected_arrival}}
+                                <br>
+                                Driver: {{ ride.driver_name }}
+                                <br>
+                                vehicle_type: {{ ride.vehicle_type }}
+                                <br>
+                                Share with others:
+                                {% if ride.isShare %}
+                                    Yes
+                                    <br>
+                                    Shared With: {% for sharer in ride.ride_sharer.all %}{{ sharer }} {% endfor %}
+                                {% else %}
+                                    No
+                                {% endif %}
+                                <br>
+                                Special Request: {{ride.special_request}}
+                            </li>
+                        {% endfor%}
+                </ul>
+            </p>
+        {% else %}
+            <p class='text-muted'>Below are your past rides!
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-light">
+                        You have no past ride.
+                    </li>
+                </ul>
+            </p>
+        {% endif %}
+
+    {% endif%}
 {% endblock body %}

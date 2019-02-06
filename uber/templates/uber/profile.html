@@ -14,7 +14,7 @@
                     <a class="nav-item nav-link" href="{% url 'search_past' %}">View your past rides</a>
                 </li>
                 <li class="list-group-item list-group-item-light">
-                    <a class="nav-item nav-link" href="{% url 'search_cur' %}">View your upcoming rides</a>
+                    <a class="nav-item nav-link" href="{% url 'search_cur' %}">View your upcoming/ongoing rides(you can confirm here)</a>
                 </li>
 
 
@@ -27,10 +27,10 @@
             <p class='text-muted'>As a rider, you can do the followings:
               <ul class="list-group">
                 <li class="list-group-item list-group-item-light">
-                    <a class="nav-item nav-link" href="{% url 'new_ride' %}">open a ride!</a>
+                    <a class="nav-item nav-link" href="{% url 'new_ride' %}">Open a ride!</a>
                 </li>
                 <li class="list-group-item list-group-item-light">
-                    <a class="nav-item nav-link" href="{% url 'search_share' %}">share a ride!</a>
+                    <a class="nav-item nav-link" href="{% url 'share_config' %}">Share a ride!</a>
                 </li>
                 <li class="list-group-item list-group-item-light">
                     <a class="nav-item nav-link" href="{% url 'search_past' %}">View your past rides</a>
@@ -46,12 +46,5 @@
 
     {% endif%}
 
-    <h1>{{ user.username }}</h1>
-    <h1>{{ user.email }}</h1>
-    <h1>{{ user.profile.plate_number }}</h1>
-
-    {% if user.profile.is_driver %}
-        <h2>This is a fucking driver!!</h2>
-    {% endif %}
 
 {% endblock body %}

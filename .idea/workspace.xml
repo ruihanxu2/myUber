@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dee0741-d524-4ee8-90b2-6e558dedaae5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/uber/templates/uber/driver_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uber/templates/uber/edit_ride.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uber/templates/uber/share_config.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uber/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/uber/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/uber/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/migrations/0002_auto_20190203_2117.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/migrations/0003_auto_20190203_2203.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/migrations/0004_auto_20190203_2248.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/migrations/0005_auto_20190204_0435.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/migrations/0006_auto_20190204_0538.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/migrations/0007_auto_20190204_0609.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/uber/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/uber/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/templates/uber/center_driver.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/templates/uber/center_rider.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/templates/uber/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber/templates/uber/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/templates/uber/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber/templates/uber/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/templates/uber/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber/templates/uber/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/templates/uber/search_cur.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber/templates/uber/search_cur.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/templates/uber/search_past.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber/templates/uber/search_past.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/templates/uber/search_share.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber/templates/uber/search_share.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uber/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/uber/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,64 +49,122 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="34" />
-          <entry key="py" value="47" />
+          <entry key="html" value="74" />
+          <entry key="py" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="34" />
-          <entry key="Python" value="47" />
+          <entry key="HTML" value="74" />
+          <entry key="Python" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="6" />
-          <entry key="html" value="1892" />
-          <entry key="py" value="4243" />
+          <entry key="html" value="3337" />
+          <entry key="py" value="6397" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1892" />
-          <entry key="Python" value="4249" />
+          <entry key="HTML" value="3337" />
+          <entry key="Python" value="6403" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uber/templates/uber/search_cur.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="676">
+              <caret line="74" column="73" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="74" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uber/templates/uber/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/uber/templates/uber/search_past.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uber/templates/uber/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uber/templates/uber/search_share.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uber/templates/uber/driver_confirm.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uber/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+            <state relative-caret-position="262">
+              <caret line="182" column="19" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="19" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
-                <marker date="1549260636272" expanded="true" signature="429:478" ph="..." />
-                <marker date="1549260636272" expanded="true" signature="474:476" ph="..." />
-                <marker date="1549260636272" expanded="true" signature="1441:1446" ph="..." />
-                <marker date="1549260636272" expanded="true" signature="3582:3793" ph="..." />
-                <marker date="1549260636272" expanded="true" signature="3830:3835" ph="..." />
+                <element signature="e#3759#4199#0" />
+                <element signature="e#4244#4770#0" />
+                <element signature="e#4815#5056#0" />
+                <marker date="1549457035463" expanded="true" signature="506:555" ph="..." />
+                <marker date="1549457035463" expanded="true" signature="551:553" ph="..." />
+                <marker date="1549457035463" expanded="true" signature="1518:1523" ph="..." />
+                <marker date="1549457035463" expanded="true" signature="4540:4787" ph="..." />
+                <marker date="1549457035463" expanded="true" signature="4819:6017" ph="..." />
+                <marker date="1549457035463" expanded="true" signature="5774:6017" ph="..." />
+                <marker date="1549457035463" expanded="true" signature="6982:8999" ph="..." />
+                <marker date="1549457035463" expanded="true" signature="7010:7733" ph="..." />
+                <marker date="1549457035463" expanded="true" signature="9036:9041" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uber/apps.py">
+        <entry file="file://$PROJECT_DIR$/uber/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uber/templates/uber/profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="38" column="115" selection-start-line="38" selection-start-column="115" selection-end-line="38" selection-end-column="115" />
+            <state relative-caret-position="251">
+              <caret line="35" column="78" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+                <marker date="1549453978806" expanded="true" signature="250:255" ph="..." />
+                <marker date="1549453978806" expanded="true" signature="350:359" ph="..." />
+                <marker date="1549453978806" expanded="true" signature="1020:1021" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +172,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment1/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="525">
+              <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
               <folding>
                 <element signature="e#635#667#0" expanded="true" />
               </folding>
@@ -104,66 +184,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uber/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+            <state relative-caret-position="390">
+              <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <marker date="1549260559701" expanded="true" signature="208:562" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uber/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="41" column="34" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <marker date="1549259628501" expanded="true" signature="226:231" ph="..." />
-                <marker date="1549259628501" expanded="true" signature="326:335" ph="..." />
-                <marker date="1549259628501" expanded="true" signature="951:952" ph="..." />
-                <marker date="1549259628501" expanded="true" signature="952:1727" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uber/signals.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="21" lean-forward="true" selection-start-column="2" selection-end-line="14" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uber/templates/uber/register_driver.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="10" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="23" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uber/templates/uber/new_ride.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="22" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uber/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1549454260842" expanded="true" signature="208:917" ph="..." />
               </folding>
             </state>
           </provider>
@@ -184,8 +209,19 @@
       <find>choice</find>
       <find>int</find>
       <find>key</find>
-      <find>can</find>
       <find>id</find>
+      <find>can</find>
+      <find>profile</find>
+      <find>creat</find>
+      <find>Share_Config</find>
+      <find>rider_name</find>
+      <find>ride</find>
+      <find>filter</find>
+      <find>complete</find>
+      <find>editride</find>
+      <find>is</find>
+      <find>isShare</find>
+      <find>home</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,7 +231,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/uber/templates/uber/register.html" />
-        <option value="$PROJECT_DIR$/uber/templates/uber/home.html" />
         <option value="$PROJECT_DIR$/uber/templates/uber/center_driver.html" />
         <option value="$PROJECT_DIR$/uber/templates/uber/center_rider.html" />
         <option value="$PROJECT_DIR$/assignment1/models.py" />
@@ -208,21 +243,26 @@
         <option value="$PROJECT_DIR$/uber/templates/uber/login.html" />
         <option value="$PROJECT_DIR$/uber/apps.py" />
         <option value="$PROJECT_DIR$/uber/signals.py" />
-        <option value="$PROJECT_DIR$/uber/templates/uber/search.html" />
-        <option value="$PROJECT_DIR$/uber/templates/uber/search_cur.html" />
-        <option value="$PROJECT_DIR$/assignment1/urls.py" />
-        <option value="$PROJECT_DIR$/uber/templates/uber/search_share.html" />
-        <option value="$PROJECT_DIR$/uber/templates/uber/search_past.html" />
-        <option value="$PROJECT_DIR$/uber/templates/uber/profile.html" />
         <option value="$PROJECT_DIR$/uber/templates/uber/new_ride.html" />
-        <option value="$PROJECT_DIR$/uber/forms.py" />
+        <option value="$PROJECT_DIR$/uber/templates/uber/driver_confirm.html" />
+        <option value="$PROJECT_DIR$/uber/templates/uber/share_config.html" />
         <option value="$PROJECT_DIR$/uber/admin.py" />
+        <option value="$PROJECT_DIR$/uber/templates/uber/share_ride.html" />
+        <option value="$PROJECT_DIR$/assignment1/urls.py" />
+        <option value="$PROJECT_DIR$/uber/templates/uber/edit_ride.html" />
+        <option value="$PROJECT_DIR$/uber/forms.py" />
         <option value="$PROJECT_DIR$/uber/models.py" />
+        <option value="$PROJECT_DIR$/uber/templates/uber/profile.html" />
+        <option value="$PROJECT_DIR$/uber/templates/uber/home.html" />
+        <option value="$PROJECT_DIR$/uber/templates/uber/search.html" />
+        <option value="$PROJECT_DIR$/uber/templates/uber/search_share.html" />
         <option value="$PROJECT_DIR$/uber/views.py" />
+        <option value="$PROJECT_DIR$/uber/templates/uber/search_cur.html" />
+        <option value="$PROJECT_DIR$/uber/templates/uber/search_past.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="660" />
     <option name="y" value="134" />
     <option name="width" value="1440" />
@@ -257,6 +297,12 @@
               <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
               <item name="assignment1" type="462c0819:PsiDirectoryNode" />
               <item name="uber" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
+              <item name="uber" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,7 +326,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -308,10 +354,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="570" y="0" width="870" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.37691402" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.18463707" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.20027624" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -330,8 +376,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20027624" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.22551093" />
+      <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.20027624" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
@@ -385,20 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uber/templates/uber/center_rider.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uber/templates/uber/center_driver.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uber/templates/uber/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -409,81 +441,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uber/templates/uber/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uber/templates/uber/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="10" lean-forward="true" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uber/templates/uber/search_cur.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uber/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uber/templates/uber/register_rider.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignment1/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uber/templates/uber/search_share.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uber/templates/uber/search_past.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uber/templates/uber/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uber/templates/uber/register_driver.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="10" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="e#635#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uber/signals.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -492,17 +451,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uber/templates/uber/new_ride.html">
+    <entry file="file://$PROJECT_DIR$/uber/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uber/templates/uber/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="38" column="115" selection-start-line="38" selection-start-column="115" selection-end-line="38" selection-end-column="115" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -516,50 +468,175 @@
     <entry file="file://$PROJECT_DIR$/uber/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/templates/uber/register_rider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/templates/uber/register_driver.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/templates/uber/share_ride.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/templates/uber/share_config.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/templates/uber/center_driver.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/templates/uber/center_rider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/templates/uber/new_ride.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="13" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/templates/uber/edit_ride.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/templates/uber/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="10" lean-forward="true" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/templates/uber/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="82" selection-start-line="32" selection-start-column="82" selection-end-line="32" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uber/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+        <state relative-caret-position="390">
+          <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <marker date="1549260559701" expanded="true" signature="208:562" ph="..." />
+            <marker date="1549454260842" expanded="true" signature="208:917" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uber/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="34" />
+        <state relative-caret-position="251">
+          <caret line="35" column="78" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1549259628501" expanded="true" signature="226:231" ph="..." />
-            <marker date="1549259628501" expanded="true" signature="326:335" ph="..." />
-            <marker date="1549259628501" expanded="true" signature="951:952" ph="..." />
-            <marker date="1549259628501" expanded="true" signature="952:1727" ph="..." />
+            <marker date="1549453978806" expanded="true" signature="250:255" ph="..." />
+            <marker date="1549453978806" expanded="true" signature="350:359" ph="..." />
+            <marker date="1549453978806" expanded="true" signature="1020:1021" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+          <folding>
+            <element signature="e#635#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/templates/uber/driver_confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/templates/uber/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/templates/uber/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/templates/uber/search_share.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uber/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+        <state relative-caret-position="262">
+          <caret line="182" column="19" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="19" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
-            <marker date="1549260636272" expanded="true" signature="429:478" ph="..." />
-            <marker date="1549260636272" expanded="true" signature="474:476" ph="..." />
-            <marker date="1549260636272" expanded="true" signature="1441:1446" ph="..." />
-            <marker date="1549260636272" expanded="true" signature="3582:3793" ph="..." />
-            <marker date="1549260636272" expanded="true" signature="3830:3835" ph="..." />
+            <element signature="e#3759#4199#0" />
+            <element signature="e#4244#4770#0" />
+            <element signature="e#4815#5056#0" />
+            <marker date="1549457035463" expanded="true" signature="506:555" ph="..." />
+            <marker date="1549457035463" expanded="true" signature="551:553" ph="..." />
+            <marker date="1549457035463" expanded="true" signature="1518:1523" ph="..." />
+            <marker date="1549457035463" expanded="true" signature="4540:4787" ph="..." />
+            <marker date="1549457035463" expanded="true" signature="4819:6017" ph="..." />
+            <marker date="1549457035463" expanded="true" signature="5774:6017" ph="..." />
+            <marker date="1549457035463" expanded="true" signature="6982:8999" ph="..." />
+            <marker date="1549457035463" expanded="true" signature="7010:7733" ph="..." />
+            <marker date="1549457035463" expanded="true" signature="9036:9041" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/templates/uber/search_cur.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="74" column="73" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="74" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uber/templates/uber/search_past.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
         </state>
       </provider>
     </entry>

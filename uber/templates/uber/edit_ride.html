@@ -1,0 +1,16 @@
+{% extends "uber/base.html" %}
+{% load crispy_forms_tags %}
+{% block body %}
+<h1>This page will edit a ride</h1>
+    <form method = "POST">
+    {% csrf_token %}
+        <fieldset class = "form-group">
+            <legend class = "border-bottom mb-4">Edit A ride Now!</legend>
+            {{ form|crispy }}
+        </fieldset>
+        <div class = "form-group">
+            <button class = "btn btn-outline-info" type="submit">submit</button>
+        </div>
+
+    </form>
+{% endblock body %}
